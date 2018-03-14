@@ -2168,12 +2168,12 @@ def bot(op):
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Absen","Absen bot","Absen dulu","Respon"]:
               if msg.from_ in admin:
-                cl.sendText(msg.to,"Tukang Sayur On")
-                ki.sendText(msg.to,"Tukang Colli On")
-                kk.sendText(msg.to,"Tukang Boker On")
-                kc.sendText(msg.to,"Tukang Becak On")
-                ks.sendText(msg.to,"Tukang Boong")
-                cl.sendText(msg.to,"Semua Udah Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu")
+                cl.sendText(msg.to,"Captai Siap")
+                ki.sendText(msg.to,"Monika Siap")
+                kk.sendText(msg.to,"Sayori Siap")
+                kc.sendText(msg.to,"Yuri Siap")
+                ks.sendText(msg.to,"Natsuki Siap")
+                cl.sendText(msg.to,"Semua Udah Hadir\nSiap Protect Group\nAman Gak Aman Yang Penting Anu")
       #-------------Fungsi Respon Finish---------------------#
                             
 
@@ -2210,7 +2210,7 @@ def bot(op):
       #-------------Fungsi Banned Send Contact Finish------------------#
             elif msg.text in ["Creator"]:
               msg.contentType = 13
-              msg.contentMetadata = {'mid': 'ued156c86ffa56024c0acba16f7889e6d'}
+              msg.contentMetadata = {'mid': 'mid'}
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
