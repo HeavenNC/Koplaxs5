@@ -2210,7 +2210,7 @@ def bot(op):
       #-------------Fungsi Banned Send Contact Finish------------------#
             elif msg.text in ["Creator"]:
               msg.contentType = 13
-              msg.contentMetadata = {'mid': 'mid'}
+              msg.contentMetadata = {'mid': 'u9e36c0029c31e1c1d6c36a8a7c13ff37'}
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
